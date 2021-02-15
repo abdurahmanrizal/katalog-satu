@@ -1,13 +1,18 @@
 <template>
   <div>
     <b-navbar toggleable="lg" class="p-3">
-      <b-navbar-brand href="#">Logo Satu Pintu Kitchen</b-navbar-brand>
+      <b-navbar-brand href="#">
+        <b-img
+          :src="require('../assets/logo-header.png')"
+          width="200"
+          class="ml-3"
+        ></b-img>
+      </b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-navbar-nav class="ml-auto">
         <b-nav-item href="#" active>Beranda</b-nav-item>
-        <b-nav-item href="#">Menu Pilihan</b-nav-item>
         <b-nav-item>
           <v-img :src="require('../assets/basket.png')" width="25"></v-img>
         </b-nav-item>

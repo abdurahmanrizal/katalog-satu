@@ -4,19 +4,15 @@
       <b-row>
         <b-col cols="8">
           <div class="parent-tagline">
-            <p class="mb-2 font-weight-bold company-name">Satu Pintu Kitchen</p>
-            <h1 class="tagline font-weight-bold">
+            <b-img
+              :src="require('../assets/logo-header.png')"
+              width="300"
+              class="d-block mx-auto mb-4"
+            >
+            </b-img>
+            <h1 class="tagline font-weight-bold text-center">
               Makan Siang Tanpa Ongkir
             </h1>
-            <v-img
-              :src="require('../assets/map.png')"
-              width="400"
-              style="position: absolute;
-              left: 0px;
-              top: 0px;
-              z-index: -1; margin-left: -5rem; "
-            >
-            </v-img>
           </div>
         </b-col>
         <b-col cols="4">
