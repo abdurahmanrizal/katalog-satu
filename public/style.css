@@ -1,0 +1,6 @@
+.company-name {
+  font-family: "Noto Sans", sans-serif;
+}
+.active-item {
+  color: red !important;
+}
