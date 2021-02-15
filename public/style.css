@@ -1,6 +1,9 @@
 .company-name {
   font-family: "Noto Sans", sans-serif;
 }
-.active-item {
+.red {
   color: red !important;
+}
+.black {
+  color: black;
 }
