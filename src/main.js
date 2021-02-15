@@ -7,10 +7,13 @@ import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-vue/dist/bootstrap-vue.css";
 import axios from "axios";
 import vueNumeralFilterInstaller from "vue-numeral-filter";
+import VueSplide from "@splidejs/vue-splide";
+import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 
 Vue.use(BootstrapVue);
 Vue.use(IconsPlugin);
 Vue.use(vueNumeralFilterInstaller);
+Vue.use(VueSplide);
 Vue.config.productionTip = false;
 Vue.prototype.$axios = axios;
 
