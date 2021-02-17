@@ -14,12 +14,25 @@
       <b-navbar-nav class="ml-auto">
         <b-nav-item href="#" active>Beranda</b-nav-item>
         <b-nav-item>
-          <v-img :src="require('../assets/basket.png')" width="25"></v-img>
+          <v-img
+            :src="require('../assets/basket.png')"
+            width="25"
+            @click="redirectToWhatsapp"
+          ></v-img>
         </b-nav-item>
       </b-navbar-nav>
     </b-navbar>
   </div>
 </template>
+<script>
+export default {
+  methods: {
+    redirectToWhatsapp() {
+      window.open("https://wa.link/6xoliw", "_blank");
+    },
+  },
+};
+</script>
 <style>
 .navbar-light .navbar-nav .nav-link {
   color: black !important;
